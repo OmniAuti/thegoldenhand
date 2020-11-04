@@ -684,33 +684,32 @@ span {
 
 @media (max-width: 700px) {
     .characters {
-        height: 1000px;
+        height: 2000px;
         width: 100%;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
     }
 
     .story-story p {
-        color: purple !important;
         font-size: .5em;
         }
 
     
     .character-contain {
-        height:1000px;
+        height:2000px;
         width: 100%;
     }
     
     .card-col-1 {
-        height:60%;
+      
     }
     
     .card-col-2 {
-        height:40%;
+       
     }
 
     .card {
-        height:200px;
+        height:500px;
     }
 
 }
