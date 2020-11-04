@@ -684,21 +684,20 @@ span {
 
 @media (max-width: 700px) {
     .characters {
-        height: inherit;
+        height: 2000px;
         width: 100%;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
     }
 
     .story-story p {
-        color: blue !important;
+        color: red !important;
         font-size: .5em;
-        
         }
 
     
     .character-contain {
-        height:500vh;
+        height:100%;
         width: 100%;
     }
     
@@ -855,7 +854,7 @@ span {
     .story-story p {
         font-size: 1em;
         width: 60%;
-        padding-top: 0;
+        padding-top: .5em;
     }
     
 
@@ -874,7 +873,7 @@ span {
 
     .story-story p { 
         width: 60%;
-        padding-top: 0;
+        padding-top: .5em;
     }
 
     .story-col {
