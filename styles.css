@@ -684,14 +684,14 @@ span {
 
 @media (max-width: 700px) {
     .characters {
-        height: 1000vh;
+        height: 50vh;
         width: 100%;
         margin-bottom: 1em;
         margin-top: 1em;
     }
 
     .story-story p {
-        color: teal !important;
+        color: red !important;
         font-size: .5em;
         }
 
@@ -701,11 +701,11 @@ span {
     }
     
     .card-col-1 {
-        height:55%;
+        height:60%;
     }
     
     .card-col-2 {
-        height:45%;
+        height:40%;
     }
 
     .card {
@@ -833,6 +833,7 @@ span {
 
     .story-story p {
     width: 30%;
+    font-size: 1em;
     }
 
     .story-story {
@@ -849,7 +850,7 @@ span {
     }
 
     .story-story p {
-        font-size: 1.5em;
+        font-size: 1em;
         width: 60%;
         padding-top: 0;
     }
