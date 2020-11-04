@@ -250,7 +250,6 @@ header a {
     align-items: center;
     text-align: center;
     box-shadow: 0px 15px 25px #4e4f4f;
-    margin-bottom: .5em;
 }
 
 .city-golotha h1 {
@@ -527,12 +526,22 @@ span {
     font-size: 1.5em;
 }
 
-.card-middle-text-1 img {
+.card-middle-text-1 .img {
+    background-image: url(classes/healthcare.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 35px;
+    width: 35px;
 }
 
-.card-middle-text-2 img {
+.card-middle-text-2 .img-2 {
+    background-image: url(classes/armor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 35px;
+    width: 35px;
 }
 
 .skill-tree-col-1 {
@@ -660,7 +669,7 @@ span {
        height: 95%;
        display: block;
        background-position: top;
-       background-size: 1000px 800px;
+       background-size: 1000px 500px;
        background-repeat: repeat;
        }
 
@@ -684,28 +693,23 @@ span {
 
 @media (max-width: 700px) {
     .characters {
-        height: 2000px;
+        height: 2500px;
         width: 100%;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
     }
-
-    .story-story p {
-        font-size: .5em;
-        }
-
     
     .character-contain {
-        height:2000px;
+        height:2500px;
         width: 100%;
     }
     
     .card-col-1 {
-      
+      height: 1500px;
     }
     
     .card-col-2 {
-       
+        height: 1000px;
     }
 
     .card {
@@ -854,6 +858,7 @@ span {
         font-size: 1em;
         width: 60%;
         padding-top: .5em;
+        font-size: .5em;
     }
     
 
