@@ -506,33 +506,31 @@ span {
     flex-direction: row;
     align-items: top;
     justify-content: space-between;
-    width: 15%;
+    width: 20%;
     position: absolute;
     top: 25%;
     left: 25%;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 .card-middle-text-2 {
     display: flex;
     -webkit-flex;
-    flex-direction: row;
     align-items: top;
     justify-content: space-between;
-    width: 15%;
+    width: 20%;
     position: absolute;
     top: 25%;
     right: 25%;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 .card-middle-text-1 .img {
     background-image: url(classes/healthcare.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
 }
 
 .card-middle-text-2 .img-2 {
@@ -540,8 +538,8 @@ span {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
 }
 
 .skill-tree-col-1 {
@@ -714,6 +712,16 @@ span {
 
     .card {
         height:500px;
+    }
+
+    .card-middle-text-1 .img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .card-middle-text-2 .img-2 {
+        height: 20px;
+        width: 20px;
     }
 
 }
