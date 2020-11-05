@@ -531,7 +531,8 @@ span {
     background-position: center;
     height: 30px;
     width: 30px;
-    transform: translateZ(10px);
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
 }
 
 .armor-div {
@@ -541,18 +542,21 @@ span {
     height: 30px;
     width: 30px;
     transform: translateZ(10px);
+    -webkit-transform: translateZ(10px);
 }
 
  .health-img {
     height: 35px;
     width: 35px;
-    transform: translateZ(10px);
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
 }
 
 .armor-img {
     height: 35px;
     width: 35px;
     transform: translateZ(10px);
+    -webkit-transform: translateZ(10px);
 }
 
 .skill-tree-col-1 {
@@ -730,35 +734,28 @@ span {
     .health-div {
         height: 20px;
         width: 20px;
-        transform: translateZ(10px);
-        -webkit-transform: translateZ(10px);
     }
     
     .armor-div {
-        height: 20px;
-        width: 20px;
-        transform: translateZ(10px);
-        -webkit-transform: translateZ(10px);
+        height: 10px;
+        width: 10px;
     }
     
      .health-img {
         height: 20px;
         width: 20px;
-        transform: translateZ(10px);
-        -webkit-transform: translateZ(10px);
     }
     
     .armor-img {
-        height: 20px;
-        width: 20px;
-        transform: translateZ(10px);
-        -webkit-transform: translateZ(10px);
+        height: 10px;
+        width: 10px;
     }
 
     .card-middle-text-1 {
         width: 85px;
         top: 125px;
         left: 100px;
+        color: red;
     }
     
     .card-middle-text-2 {
