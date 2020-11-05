@@ -475,6 +475,7 @@ span {
 
 .card-top-text span {
     margin-top: .75em;
+    font-weight: 400;
 }
 
 .card-top-text h1 {
