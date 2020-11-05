@@ -41,6 +41,7 @@ const diceMenu = document.querySelector('.dice-drop')
 btn.addEventListener('click', () => {
     diceMenu.classList.toggle('dice-active');
     btn.classList.toggle('dice-drop-drop')
+    header.classList.toggle('burger-active-header')
 });
 
 }
@@ -48,7 +49,7 @@ btn.addEventListener('click', () => {
 diceDrop();
 
 const burgerDrop = () => {
-    const burger = document.querySelector('.burger');
+    const burger = document.querySelector('.dice-btn');
     const pageLinks = document.querySelector('.page-links');
 
     burger.addEventListener('click', () => {
