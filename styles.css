@@ -900,7 +900,7 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)),
     url('img/tavern.jpg');
@@ -926,39 +926,47 @@ span {
 }
 
 .maps-contain-1 {
-    height: 50%;
-    width: 47.5%;
-    background-image: url(img/map.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 80%;
+    width: 49.5%;
     position: absolute;
     z-index: 1;
     left: 0px;
     transition: all ease-in-out 500ms;
+    outline: 5px solid #000;
+    outline-offset: -5px;
+}
+
+.maps-contain-1 img {
+    height: 100%;
+    width: 100%;
 }
 
 .maps-contain-2 {
-    height: 50%;
-    width: 47.5%;
-    background-image: url(img/farthermap.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 80%;
+    width: 49.5%;
     position: absolute;
     z-index: 1;
     right: 0px;
     transition: all ease-in-out 500ms;
+    outline: 5px solid #000;
+    outline-offset: -5px;
+}
+
+.maps-contain-2 img {
+    height: 100%;
+    width: 100%;
 }
 
 .maps-contain-1:hover {
     z-index:2;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 
 .maps-contain-2:hover {
     z-index:2;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 
 .maps-h1 {
