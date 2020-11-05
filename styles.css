@@ -521,7 +521,7 @@ span {
 
 .card-top-text span {
     margin-top: .75em;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .card-top-text h1 {
@@ -590,7 +590,8 @@ span {
     display: block;
     text-decoration: none;
     font-size: .75em;
-    margin-top: .5em
+    margin-top: .5em;
+    font-weight: 900;
 }
 
 .speed-bottom-text {
