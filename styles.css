@@ -42,7 +42,6 @@ header {
 .dice-btn {
     height: 50px;
     width: 50px;
-    margin-left: 11.6em;
     border-radius: 100px;
     transition: all ease-in-out 500ms;
     clip-path: circle(50px);
@@ -59,7 +58,7 @@ header {
 .dice-drop {
     position: absolute;
     top: 10vh;
-    left: -5px;
+    right: 200px;
     list-style: none;
     display: flex;
     display: -webkit-flex;
@@ -67,7 +66,7 @@ header {
     justify-content: space-around;
     height: 50vh;
     width: 13.5em;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: all ease-in-out 1000ms;
     background: rgba(0,0,0,.7);
     border: 2px solid #526faa;
@@ -286,10 +285,10 @@ span {
     width: 100%;
     height: 100vh;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     margin-bottom: .5em;
+    box-shadow: 0px 0px 25px #000;
 }
 
 
@@ -515,7 +514,6 @@ span {
 
 .card-middle-text-2 {
     display: flex;
-    
     align-items: top;
     justify-content: space-between;
     width: 11%;
@@ -525,38 +523,18 @@ span {
     font-size: 1.75em;
 }
 
-.health-div {
-    background-image: url(classes/healthcare.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 30px;
-    width: 30px;
-    transform: translateZ(100px);
-    -webkit-transform: translateZ(100px);
-}
-
-.armor-div {
-    background-image: url(classes/armor.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 30px;
-    width: 30px;
-    transform: translateZ(10px);
-    -webkit-transform: translateZ(10px);
-}
-
  .health-img {
     height: 35px;
     width: 35px;
-    transform: translateZ(100px);
-    -webkit-transform: translateZ(100px);
+    transform: translateZ(25px);
+    -webkit-transform: translateZ(25px);
 }
 
 .armor-img {
     height: 35px;
     width: 35px;
-    transform: translateZ(10px);
-    -webkit-transform: translateZ(10px);
+    transform: translateZ(25px);
+    -webkit-transform: translateZ(25px);
 }
 
 .skill-tree-col-1 {
@@ -712,6 +690,7 @@ span {
         width: 100%;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
+        overflow-x: hidden;
     }
     
     .character-contain {
@@ -731,31 +710,20 @@ span {
         height:500px;
     }
 
-    .health-div {
-        height: 20px;
-        width: 20px;
-    }
-    
-    .armor-div {
-        height: 10px;
-        width: 10px;
-    }
-    
      .health-img {
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
     
     .armor-img {
-        height: 10px;
-        width: 10px;
+        height: 30px;
+        width: 30px;
     }
 
     .card-middle-text-1 {
         width: 85px;
         top: 125px;
         left: 100px;
-        color: red;
     }
     
     .card-middle-text-2 {
