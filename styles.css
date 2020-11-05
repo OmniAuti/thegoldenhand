@@ -204,7 +204,8 @@ header a {
         display: -webkit-flex;
         flex-direction: column;
         justify-content: space-between;
-        line-height: 5em;
+        position: relative;
+        top: -1.75vh;
         width: 100%;
         height: 30%;
         margin-bottom: 0;
@@ -235,23 +236,12 @@ header a {
         transition: all ease-in-out 500ms;
     }
 
-    .burger-active-header .mobile-logo {
-        transform: translateX(-150%) !important;
-        -webkit-transform: translateX(-150%) !important;
-        transition: all ease-in-out 500ms;
-    }
-
     .nav-scrolled {
         background-color: rgba(0,0,0,.7);
         border-bottom: 1px solid #526faa;
         transition: all ease-in-out 500ms;
     }
     
-    .burger-active-header {
-        background-color: transparent;
-        border-bottom: none;
-        transition: all ease-in-out 500ms;
-    }
 
     .dice-drop {
         top: 0;
