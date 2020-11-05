@@ -41,7 +41,7 @@ header {
 }
 
 .dice-btn {
-    margin-right: 5em;
+    margin-right: 2.5em;
     height: 60px;
     width: 60px;
     border-radius: 100px;
@@ -101,7 +101,7 @@ header {
 
 .dice-drop-drop {
     transition: all ease-in-out 1000ms;
-    transform: translateY(55vh) translateX(-6.5em) rotateZ(360deg);
+    transform: translateY(55vh) translateX(-9em) rotateZ(360deg);
 }
 
 .page-links {
@@ -162,7 +162,7 @@ header a {
 
     .dice-drop-drop {
         transition: all ease-in-out 1000ms;
-        transform: translateY(33vh) translateX(-6.5em) rotateZ(360deg);
+        transform: translateY(34vh) translateX(-9em) rotateZ(360deg);
     }
 
     .page-links {
@@ -199,7 +199,7 @@ header a {
     }
 
     .dice-drop-drop {
-        transform: translateY(44vh) translateX(-6.5em) rotateZ(360deg);
+        transform: translateY(44vh) translateX(-9em) rotateZ(360deg);
     }
 
     .burger {
