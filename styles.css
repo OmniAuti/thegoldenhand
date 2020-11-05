@@ -367,6 +367,7 @@ span {
 
 .card .front h1 {
    text-shadow: 0px 0px 10px #edb46b;
+   color: red;
    font-size: 2em;
    margin-top: 2.5em;
    position: relative;
@@ -526,20 +527,20 @@ span {
 }
 
 .card-middle-text-1 .img {
-    background-image: url(classes/healthcare.png);
+    background-image: url(classes/healthcare.jpg);
     background-size: cover;
     background-position: center;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .card-middle-text-2 .img-2 {
-    background-image: url(classes/armor.png);
+    background-image: url(classes/armor.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .skill-tree-col-1 {
