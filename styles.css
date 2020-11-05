@@ -483,7 +483,7 @@ span {
 
 .card-top-text {
     display: flex;
-    display: -webkit-flex;
+    -webkit-display: -webkit-flex;
     text-align: center;
     justify-content: space-between;
     width: 90%;
@@ -727,30 +727,42 @@ span {
         height:500px;
     }
 
-    .card-middle-text-1 .img {
-        height: 30px;
-        width: 30px;
+    .health-div {
+        height: 20px;
+        width: 20px;
+        transform: translateZ(10px);
+        -webkit-transform: translateZ(10px);
     }
     
-    .card-middle-text-2 .img-2 {
-        height: 30px;
-        width: 30px;
+    .armor-div {
+        height: 20px;
+        width: 20px;
+        transform: translateZ(10px);
+        -webkit-transform: translateZ(10px);
+    }
+    
+     .health-img {
+        height: 20px;
+        width: 20px;
+        transform: translateZ(10px);
+        -webkit-transform: translateZ(10px);
+    }
+    
+    .armor-img {
+        height: 20px;
+        width: 20px;
+        transform: translateZ(10px);
+        -webkit-transform: translateZ(10px);
     }
 
     .card-middle-text-1 {
-     
-      
         width: 85px;
-        
         top: 125px;
         left: 100px;
-        
     }
     
     .card-middle-text-2 {
-
         width: 86px;
-     
         top: 125px;
         right: 100px;
     }
@@ -820,7 +832,7 @@ span {
     height: 90vh;
     width: 55vw;
     display: flex;
-    display: -webkit-flex;
+    -webkit-display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -933,7 +945,7 @@ span {
 
 .maps {
     display: flex;
-    display: -webkit-flex;
+    -webkit-display: -webkit-flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -954,7 +966,7 @@ span {
 
 .maps-contain {
     display: flex;
-    display: -webkit-flex;
+    -webkit-display: -webkit-flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
