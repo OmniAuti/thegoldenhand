@@ -178,7 +178,7 @@ header a {
     }
 
     .dice-drop {
-        height: 90vh;
+        height: 100vh;
     }
 
     .dice-page-links-mobile {
@@ -199,7 +199,7 @@ header a {
     }
 
     .dice-drop-drop {
-        transform: translateY(44vh) translateX(-9em) rotateZ(360deg);
+        transform: translateY(39vh) translateX(-9em) rotateZ(360deg);
     }
 
     .burger {
@@ -210,6 +210,13 @@ header a {
        display: none;
     }
 
+    .nav-scrolled {
+        display: none;
+    }
+
+    .dice-drop {
+        top: 0;
+    }
    
 
 }
