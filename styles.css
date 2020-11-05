@@ -235,7 +235,7 @@ header a {
         transition: all ease-in-out 500ms;
     }
 
-    .burger-active-header h1 {
+    .burger-active-header .mobile-logo {
         transform: translateX(-150%) !important;
         -webkit-transform: translateX(-150%) !important;
         transition: all ease-in-out 500ms;
