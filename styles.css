@@ -46,6 +46,7 @@ header {
     font-size: 1.5em;
     margin-left: 1em;
     transform: translateX(-150%);
+    -webkit-transform: translateX(-150%);
     transition: all ease-in-out 500ms;
     display: none;
 }
@@ -79,6 +80,7 @@ header {
     height: 50vh;
     width: 13.5em;
     transform: translateX(100%);
+    -webkit-transform: translateX(100%);
     transition: all ease-in-out 1000ms;
     background: rgba(0,0,0,.7);
     border: 2px solid #526faa;
@@ -112,6 +114,7 @@ header {
 .dice-drop-drop {
     transition: all ease-in-out 1000ms;
     transform: translateY(55vh) translateX(-9em) rotateZ(360deg);
+    -webkit-transform: translateY(55vh) translateX(-9em) rotateZ(360deg);
 }
 
 .page-links {
@@ -173,6 +176,7 @@ header a {
     .dice-drop-drop {
         transition: all ease-in-out 1000ms;
         transform: translateY(34vh) translateX(-9em) rotateZ(360deg);
+        -webkit-transform: translateY(34vh) translateX(-9em) rotateZ(360deg);
     }
 
     .page-links {
@@ -214,6 +218,7 @@ header a {
 
     .dice-drop-drop {
         transform: translateY(39vh) translateX(-9em) rotateZ(360deg);
+        -webkit-transform: translateY(39vh) translateX(-9em) rotateZ(360deg);
     }
 
     .burger {
@@ -226,11 +231,13 @@ header a {
 
     .nav-scrolled .mobile-logo {
         transform: translateX(0%);
+        -webkit-transform: translateX(0%);
         transition: all ease-in-out 500ms;
     }
 
     .burger-active-header h1 {
         transform: translateX(-150%) !important;
+        -webkit-transform: translateX(-150%) !important;
         transition: all ease-in-out 500ms;
     }
 
