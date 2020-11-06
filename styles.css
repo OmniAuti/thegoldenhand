@@ -560,15 +560,15 @@ span {
  .health-img {
     height: 35px;
     width: 35px;
-    transform: translateZ(25px);
-    -webkit-transform: translateZ(25px);
+    transform: translateZ(40px);
+    -webkit-transform: translateZ(40px);
 }
 
 .armor-img {
     height: 35px;
     width: 35px;
-    transform: translateZ(25px);
-    -webkit-transform: translateZ(25px);
+    transform: translateZ(40px);
+    -webkit-transform: translateZ(40px);
 }
 
 .skill-tree-col-1 {
