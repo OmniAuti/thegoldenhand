@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,
+    body {
+        -webkit-overflow-scrolling: touch;
+    }
+
 body {
     font-family: 'Syne Mono', monospace;
     overflow-x: hidden;
