@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
 html,
     body {
         -webkit-overflow-scrolling: touch;
