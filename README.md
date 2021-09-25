@@ -1,5 +1,5 @@
 D&D game tracker
 
-This is a website designed to keep track of friend's D&D campaign.
+This is a website designed to keep track of our D&D campaign.
 
- https://autiomni.github.io/thegoldenhand/
+ https://omniauti.github.io/thegoldenhand/
